@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+}
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --light-color: hsl(30, 54%, 90%);
+    --medium-ligth: hsl(30, 18%, 87%);
+    --medium-dark: hsl(30, 10%, 34%);
+    --dark-color: hsl(24, 5%, 18%);
+    
+    --brown: hsl(14, 45%, 36%);
+    
+    --dark-rose: hsl(332, 51%, 32%);
+    --light-rose: hsl(330, 100%, 98%);
+
+    --outfit-font: "Outfit", sans-serif; /*400*/
+    --young-serif-font: "Young Serif", serif; /*400 600 700*/
+}
+
+body{
+    background-color: var(--light-color);
+    font-family: var(--outfit-font);
+    text-align: center;
+    color: var(--medium-dark);
+}
+
+main{  
+    
+    width: 700px;
+    margin-top: 8rem;
+    background-color: var(--white);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2rem;
+    height: auto;
+    text-align: left;
+    border-radius: 25px;
+}
+
+img{
+width: 100%;
+border-radius: 20px;
+margin-bottom: 2rem;
+}
+
+h1{
+    font-family: var(--young-serif-font);
+    font-size: 1.5rem;
+    color: var(--brown);
+    font-weight: 400;
+}
+
+.recipe h1{
+    color: var(--dark-color);
+    font-size: 2rem;
+    font-family: var(--young-serif-font);
+    color: var(--dark-color);
+    font-weight: 400;
+    margin-bottom: 1rem;
+
+}
+
+.recipe p{
+    letter-spacing: .5px ;
+    margin-bottom: 2rem;
+}
+
+
+
+.preparation{
+    width: 200px;
+    margin-top: 1rem;
+    background-color: var(--light-rose);
+    width: auto;
+    line-height: 1.5rem;
+    padding: 1.25rem;
+    border-radius: 15px;
+    
+}
+.preparation h2{
+    color: var(--dark-rose);
+    font-size: 1.25rem;
+    margin-bottom: .7rem;
+}
+.preparation li{
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.preparation li::marker{
+    color: var(--dark-rose);
+    font-size: 12px;
+    
+    
+}
+.preparation span{
+    font-weight: 700;
+    margin-left: .5rem;
+}
+
+.ingredients{
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--medium-ligth);
+    
+}
+.ingredients h1{
+    margin-bottom: 1rem;
+      
+}
+
+.ingredients li{
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    line-height: 2rem;
+}
+
+.ingredients li::marker{
+    font-size: 12px;
+}
+
+.items span{
+    margin-left: 1rem;
+}
+.instructions{
+    margin-top: 1rem;  
+    border-bottom: 1px solid var(--light-color);
+    padding-bottom: 1rem;
+    
+}
+
+.instructions h1 {
+    padding-bottom: 1rem;
+    
+   
+}
+
+.steps li::marker{
+    font-weight: 700;
+    color:var(--brown);
+    font-family: var(--outfit-font);
+    
+    
+    
+}
+
+.instructions span{
+    font-weight: 600;
+    
+}
+.steps li{
+    margin-bottom: 1rem;
+    list-style-type: decimal;
+    padding-left: 10px;
+    margin-left: 1.5rem;
+    
+    
+}
+
+
+.nutrition{
+    margin-top: 1rem;
+}
+
+.nutrition h1{
+    margin-bottom: 1rem;
+}
+
+.table{
+    display: block;
+    margin-top: 1rem;
+    
+    
+}
+
+.table span{
+    color: var(--brown);
+    font-weight: 700;   
+    margin-right: 12rem;
+}
+
+.table li{
+    border-bottom: 1px solid var(--medium-ligth);
+    padding: 1rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
